@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "7c6491b782d123313f51c5d8be7df63ef9431974"
+    "signature": "04bd1a981f38f7e183552c02e5f0b51ab41f76a1"
   },
   "compilationOptions": {
     "defines": [
@@ -24,13 +24,26 @@
       "phonemvc/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.5",
-          "Microsoft.NETCore.App": "2.0.0"
+          "Microsoft.NETCore.App": "2.0.0",
+          "PhoneBook": "1.0.1",
+          "phonebookghp": "1.0.0",
+          "thephonebook": "1.0.0"
         },
         "runtime": {
           "phonemvc.dll": {}
         },
         "compile": {
           "phonemvc.dll": {}
+        }
+      },
+      "EntityFramework/6.1.3": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -2365,6 +2378,25 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "PhoneBook/1.0.1": {
+        "dependencies": {
+          "EntityFramework": "6.1.3"
+        },
+        "runtime": {
+          "lib/PhoneBook.Library.dll": {}
+        },
+        "compile": {
+          "lib/PhoneBook.Library.dll": {}
+        }
+      },
+      "phonebookghp/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/phonebookghp.dll": {}
+        },
+        "compile": {
+          "lib/netcoreapp2.0/phonebookghp.dll": {}
+        }
+      },
       "Remotion.Linq/2.1.1": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -3780,6 +3812,14 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
+      "thephonebook/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/thephonebook.dll": {}
+        },
+        "compile": {
+          "lib/netcoreapp2.0/thephonebook.dll": {}
+        }
+      },
       "WindowsAzure.Storage/8.1.4": {
         "dependencies": {
           "Microsoft.Data.OData": "5.8.2",
@@ -3977,6 +4017,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EntityFramework/6.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OuHmfU+reJF6vYSKiN00onMkkIczl5j4JaVVXGXFIxlPAU2K3SLqQB1o008oKrdRTd99T7pvyG5eZIXyoIc0jg==",
+      "path": "entityframework/6.1.3",
+      "hashPath": "entityframework.6.1.3.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
@@ -5126,6 +5173,20 @@
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
     },
+    "PhoneBook/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EaStfC810PN9EXtUbvFL/hLQDiFO5anuQvymVBTTsZRZXh0b5FAdF+ddrBFJSqKUpkT4RhDEyYCb4llbgIkPcw==",
+      "path": "phonebook/1.0.1",
+      "hashPath": "phonebook.1.0.1.nupkg.sha512"
+    },
+    "phonebookghp/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cFYMWrdCVLabfdpUTfDiU4qNedh6jdaL/H9iHJFddXTJFMXJJ6MHOxBQcDUaIWPOemRcQEeBJj0b/dLIgcg72g==",
+      "path": "phonebookghp/1.0.0",
+      "hashPath": "phonebookghp.1.0.0.nupkg.sha512"
+    },
     "Remotion.Linq/2.1.1": {
       "type": "package",
       "serviceable": true,
@@ -5972,6 +6033,13 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "thephonebook/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-smqKYCLv/RTwdB7janvCdNWu1UZiOIRijx2Yaafwx8pVxHWGxlT6jBw1d4SXxlQznzllkXI7rey3td9o4PsV+Q==",
+      "path": "thephonebook/1.0.0",
+      "hashPath": "thephonebook.1.0.0.nupkg.sha512"
     },
     "WindowsAzure.Storage/8.1.4": {
       "type": "package",

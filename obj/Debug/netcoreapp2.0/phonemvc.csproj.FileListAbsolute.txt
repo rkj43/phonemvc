@@ -8,5 +8,3 @@ d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.AssemblyInfoInputs.cache
 d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.AssemblyInfo.cs
 d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.dll
 d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.pdb
-D:\phonemvc\bin\Debug\netcoreapp2.0\lib.dll
-D:\phonemvc\bin\Debug\netcoreapp2.0\lib.pdb

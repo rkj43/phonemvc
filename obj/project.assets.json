@@ -2758,6 +2758,15 @@
           "lib/PhoneBook.Library.dll": {}
         }
       },
+      "phonebookghp/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/phonebookghp.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/phonebookghp.dll": {}
+        }
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -4753,6 +4762,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
+        }
+      },
+      "thephonebook/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/thephonebook.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/thephonebook.dll": {}
         }
       },
       "WindowsAzure.Storage/8.1.4": {
@@ -7619,6 +7637,16 @@
         "lib/PhoneBook.Library.dll",
         "phonebook.1.0.1.nupkg.sha512",
         "phonebook.nuspec"
+      ]
+    },
+    "phonebookghp/1.0.0": {
+      "sha512": "cFYMWrdCVLabfdpUTfDiU4qNedh6jdaL/H9iHJFddXTJFMXJJ6MHOxBQcDUaIWPOemRcQEeBJj0b/dLIgcg72g==",
+      "type": "package",
+      "path": "phonebookghp/1.0.0",
+      "files": [
+        "lib/netcoreapp2.0/phonebookghp.dll",
+        "phonebookghp.1.0.0.nupkg.sha512",
+        "phonebookghp.nuspec"
       ]
     },
     "Remotion.Linq/2.1.1": {
@@ -12567,6 +12595,16 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "thephonebook/1.0.0": {
+      "sha512": "smqKYCLv/RTwdB7janvCdNWu1UZiOIRijx2Yaafwx8pVxHWGxlT6jBw1d4SXxlQznzllkXI7rey3td9o4PsV+Q==",
+      "type": "package",
+      "path": "thephonebook/1.0.0",
+      "files": [
+        "lib/netcoreapp2.0/thephonebook.dll",
+        "thephonebook.1.0.0.nupkg.sha512",
+        "thephonebook.nuspec"
+      ]
+    },
     "WindowsAzure.Storage/8.1.4": {
       "sha512": "W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "type": "package",
@@ -12594,7 +12632,9 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.NETCore.App >= 2.0.0",
-      "PhoneBook >= 1.0.1"
+      "PhoneBook >= 1.0.1",
+      "phonebookghp >= 1.0.0",
+      "thephonebook >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12650,6 +12690,14 @@
           "PhoneBook": {
             "target": "Package",
             "version": "[1.0.1, )"
+          },
+          "phonebookghp": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "thephonebook": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
