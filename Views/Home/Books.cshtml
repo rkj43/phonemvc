@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Books(will change to contacts later)";
+}
+<h2>@ViewData["Title"]</h2>
+@model phonemvc.Books
+<ul>
+    @foreach(var book in Model.books){
+		<li>@book.title</li>
+	}
+</ul>
+
+

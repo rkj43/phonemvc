@@ -1,0 +1,12 @@
+D:\phonemvc\bin\Debug\netcoreapp2.0\phonemvc.deps.json
+D:\phonemvc\bin\Debug\netcoreapp2.0\phonemvc.runtimeconfig.json
+D:\phonemvc\bin\Debug\netcoreapp2.0\phonemvc.runtimeconfig.dev.json
+d:\phonemvc\bin\Debug\netcoreapp2.0\phonemvc.dll
+d:\phonemvc\bin\Debug\netcoreapp2.0\phonemvc.pdb
+d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.csproj.CoreCompileInputs.cache
+d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.AssemblyInfoInputs.cache
+d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.AssemblyInfo.cs
+d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.dll
+d:\phonemvc\obj\Debug\netcoreapp2.0\phonemvc.pdb
+D:\phonemvc\bin\Debug\netcoreapp2.0\lib.dll
+D:\phonemvc\bin\Debug\netcoreapp2.0\lib.pdb
