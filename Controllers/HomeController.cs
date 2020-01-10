@@ -23,14 +23,11 @@ namespace phonemvc.Controllers
         }
 
         
-        public IActionResult Books()
+        public IActionResult Contacts()
         {
-           var json = "{\"books\":[{\"title\":\"Book 1\", \"author\":\"Author1\", \"price\":762, \"inStock\":15},{\"title\":\"Book 2\", \"author\":\"Author2\", \"price\":100, \"inStock\":1},{\"title\":\"Book 3\", \"author\":\"Author3\", \"price\":185.5, \"inStock\":5},{\"title\":\"Book 4\", \"author\":\"Author 4\", \"price\":1748, \"inStock\":3},{\"title\":\"Book 5\", \"author\":\"Author 5\", \"price\":999, \"inStock\":20},{\"title\":\"Book 6\", \"author\":\"Author 6\", \"price\":499.5, \"inStock\":3},{\"title\":\"Book 7\", \"author\":\"Author 7\", \"price\":564.5, \"inStock\":0}]}";			
-			
-            var books = JsonConvert.DeserializeObject<Books>(json);
 
 
-             return View(books);
+             return View();
         }
 
         public IActionResult Error()

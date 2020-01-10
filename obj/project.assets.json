@@ -13,6 +13,15 @@
           "lib/net45/EntityFramework.dll": {}
         }
       },
+      "finaldll/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/finaldll.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/finaldll.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4817,6 +4826,16 @@
         "tools/init.ps1",
         "tools/install.ps1",
         "tools/migrate.exe"
+      ]
+    },
+    "finaldll/1.0.0": {
+      "sha512": "cuogscSOlm5dg0uLNyJy05BNuOpIUD3uR5LOGwetfKaa5BuJczI4dp37u122Kho3HA4lVn10NwWhlHd+w/3BdQ==",
+      "type": "package",
+      "path": "finaldll/1.0.0",
+      "files": [
+        "finaldll.1.0.0.nupkg.sha512",
+        "finaldll.nuspec",
+        "lib/netcoreapp2.0/finaldll.dll"
       ]
     },
     "Libuv/1.10.0": {
@@ -12633,6 +12652,7 @@
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.NETCore.App >= 2.0.0",
       "PhoneBook >= 1.0.1",
+      "finaldll >= 1.0.0",
       "phonebookghp >= 1.0.0",
       "thephonebook >= 1.0.0"
     ]
@@ -12690,6 +12710,10 @@
           "PhoneBook": {
             "target": "Package",
             "version": "[1.0.1, )"
+          },
+          "finaldll": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "phonebookghp": {
             "target": "Package",

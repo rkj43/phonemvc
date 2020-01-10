@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Contacts";
+}
+<h2>@ViewData["Title"]</h2>
+
+
+@using pkphonebook;
+<ul>
+@{
+    
+    pkphonebook.FileHandler fileHandler = new pkphonebook.FileHandler();
+    pkphonebook.Phonebook phone = new pkphonebook.Phonebook();
+    phone.addContact(fileHandler.readContactsFromJson());
+    List<Contact> contacts =  phone.getContacts();
+    foreach(var contact in contacts)
+    {
+        <li>@contact.name </li>
+    }    
+
+}
+</ul>
+
+
